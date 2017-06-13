@@ -7,6 +7,7 @@
 library(plyr)
 library(gdata)
 #setwd("C:/MSDS 6306-FALL2016/404/Live session 06")
+setwd("/home/fasare/Desktop/DDS/HW_5/data")
 getwd()
 ## You need a perl interpreter to do this on Windows.
 ## It's automatic in Mac
@@ -14,6 +15,7 @@ getwd()
 
 # So, save the file as a csv and use read.csv instead
 bk <- read.csv("rollingsales_brooklyn.csv",skip=4,header=TRUE)
+
 
 ## Check the data
 head(bk)

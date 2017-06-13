@@ -1,0 +1,5 @@
+---
+title: "Patterns in the Dataset"
+output: html_document
+---
+The data set contains a lot of missing values and incorrrect date formats 
